@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="css/letter.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/letter.js"></script>
+    <title>Form letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Address a Letter to Yourself</h3>
+      <p>Fill your name in the blank</p>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address">Your address</label>
+            <input id="address" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="message">Message yourself here</label>
+            <input id="message" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me my letter!</button>
+        </form>
+      </div>
+
+      <div id="letter">
+        <h1><span class="name"></span></h1>
+        <h2><span class="address"</span></h2>
+        <h3><span class="message"</span></h3>
+      </div>
+    </div>
+  </body>
+</html>
